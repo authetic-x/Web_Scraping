@@ -1,4 +1,4 @@
-#!"C:\Users\hp\Desktop\Projects\Py Projects\Web Scraping\venv\Scripts\python.exe"
+#!"C:\Users\hp\Desktop\Projects\Py Projects\Web Crawl\venv\Scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==39.1.0','console_scripts','easy_install'
 __requires__ = 'setuptools==39.1.0'
 import re

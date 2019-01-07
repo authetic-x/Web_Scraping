@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\hp\Desktop\Projects\Py Projects\Web Scraping\venv"
+VIRTUAL_ENV="C:\Users\hp\Desktop\Projects\Py Projects\Web Crawl\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

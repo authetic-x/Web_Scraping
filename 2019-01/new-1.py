@@ -40,15 +40,12 @@ def main():
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome'
                      '/70.0.3538.77 Safari/537.36',
-        'Cookie':'JSESSIONID=07FB7F79C16365D7C3E1EA50ABB7B420; UM_dis'
-                 'tinctid=166c507dac2ee-0e64734c8cc5cd-9393265-e1000-1'
-                 '66c507dac7116; BIGipServerxg=592488640.20480.0000'
+        'Cookie':'JSESSIONID=D8C4F47CE58B2E4DEE747275CFC75BCA; UM_distinctid=166c507dac2ee-0e64734c8cc5cd-9393265-e1000-166c507dac7116; BIGipServerxg=609265856.20480.0000'
     }
-    url = 'http://xssw.ccnu.edu.cn/xgxt/xsxx_xsgl.do?method=showPhoto&amp;xh=2016211073'
+    url = 'http://xssw.ccnu.edu.cn/xgxt/xsxx_xsgl.do?method=showPhoto&xh=2016211072'
 
-    response = requests.get(url, headers = headers)
-    file = open('test.gif', 'wb')
+    response = requests.get(url, headers=headers)
+    file = open('test1.htm', 'wb')
     file.write(response.content)
     print(response.content)
-
 main()

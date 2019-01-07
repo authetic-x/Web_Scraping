@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca1735ab-6c94-459c-8589-9c9283fa25dc" name="Default Changelist" comment="" />
+    <list default="true" id="9bda5c7c-8f65-48e7-801b-ff4364c02a1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Web Scraping.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-01/editors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-01/new-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019-01/new-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchat.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/itchat_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-1.6.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-1.6.dist-info/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-1.6.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-1.6.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-1.6.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-1.6.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/__meta__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/__meta__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/css_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/css_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/css_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/css_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,51 +40,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Web_Scraping$new_1.coverage" NAME="new-1 Coverage Results" MODIFIED="1546564177973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
-    <SUITE FILE_PATH="coverage/Web_Scraping$day4_sixLevel_space_game.coverage" NAME="day4-sixLevel_space_game Coverage Results" MODIFIED="1546589950483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
-    <SUITE FILE_PATH="coverage/Web_Scraping$day_3.coverage" NAME="day-3 Coverage Results" MODIFIED="1546481745219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
-    <SUITE FILE_PATH="coverage/Web_Scraping$day_2.coverage" NAME="day-2 Coverage Results" MODIFIED="1546412405491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
-    <SUITE FILE_PATH="coverage/Web_Scraping$day_4.coverage" NAME="day-4 Coverage Results" MODIFIED="1546572269760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
-    <SUITE FILE_PATH="coverage/Web_Scraping$day4_Mysql.coverage" NAME="day4-Mysql Coverage Results" MODIFIED="1546585528688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
+    <SUITE FILE_PATH="coverage/Web_Crawl$day7.coverage" NAME="day7 Coverage Results" MODIFIED="1546839369067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
+    <SUITE FILE_PATH="coverage/Web_Crawl$day5.coverage" NAME="day5 Coverage Results" MODIFIED="1546655777569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
+    <SUITE FILE_PATH="coverage/Web_Crawl$merge_photo.coverage" NAME="merge_photo Coverage Results" MODIFIED="1546867788990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
+    <SUITE FILE_PATH="coverage/Web_Crawl$day6.coverage" NAME="day6 Coverage Results" MODIFIED="1546741136112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
+    <SUITE FILE_PATH="coverage/Web_Crawl$new_1.coverage" NAME="new-1 Coverage Results" MODIFIED="1546659712750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2019-01" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1434728775">
+    <session id="1027282628">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="29" />
-          <entry key="py" value="10610" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="10630" />
-          <entry key="SQL" value="9" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
-          <entry key="gif" value="1" />
-          <entry key="jpg" value="1" />
-          <entry key="png" value="1" />
-          <entry key="py" value="12" />
+          <entry key="jpg" value="7" />
+          <entry key="pkl" value="3" />
+          <entry key="png" value="5" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="12" />
+          <entry key="Image" value="12" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="151" />
+          <entry key="py" value="5278" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="5429" />
         </counts>
       </usages-collector>
     </session>
@@ -61,99 +88,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019-01/new-1.py">
+        <entry file="file://$PROJECT_DIR$/2019-01/day5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+            <state relative-caret-position="336">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
-                <marker date="1546487712451" expanded="true" signature="158:163" ph="..." />
-                <marker date="1546487712451" expanded="true" signature="410:598" ph="..." />
-                <marker date="1546487712451" expanded="true" signature="617:622" ph="..." />
+                <element signature="e#62#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019-01/day-2.py">
+        <entry file="file://$PROJECT_DIR$/2019-01/day6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="324">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
-                <marker date="1546412405455" expanded="true" signature="288:293" ph="..." />
+                <element signature="e#54#63#0" expanded="true" />
+                <marker date="1546741597412" expanded="true" signature="203:208" ph="..." />
+                <marker date="1546741597412" expanded="true" signature="674:679" ph="..." />
+                <marker date="1546741597412" expanded="true" signature="827:832" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019-01/day-3.py">
+        <entry file="file://$PROJECT_DIR$/2019-01/day7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="-1">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
-                <marker date="1546485387412" expanded="true" signature="346:351" ph="..." />
-                <marker date="1546485387412" expanded="true" signature="918:1383" ph="..." />
-                <marker date="1546485387412" expanded="true" signature="1394:1399" ph="..." />
-                <marker date="1546485387412" expanded="true" signature="1394:1905" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019-01/day-4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2295">
-              <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-              <folding>
-                <element signature="e#88#97#0" expanded="true" />
-                <marker date="1546572269742" expanded="true" signature="323:328" ph="..." />
-                <marker date="1546572269742" expanded="true" signature="707:712" ph="..." />
-                <marker date="1546572269742" expanded="true" signature="1007:1505" ph="..." />
-                <marker date="1546572269742" expanded="true" signature="1524:1529" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019-01/day4-Mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="100" />
-              <folding>
-                <element signature="e#100#114#0" expanded="true" />
-                <marker date="1546585528675" expanded="true" signature="649:654" ph="..." />
-                <marker date="1546585528675" expanded="true" signature="649:777" ph="..." />
-                <marker date="1546585528675" expanded="true" signature="811:816" ph="..." />
-                <marker date="1546585528675" expanded="true" signature="1261:1266" ph="..." />
+                <element signature="e#40#70#0" expanded="true" />
+                <marker date="1546839369028" expanded="true" signature="309:314" ph="..." />
+                <marker date="1546839369028" expanded="true" signature="540:545" ph="..." />
+                <marker date="1546839369028" expanded="true" signature="1062:1067" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019-01/day4-sixLevel_space_game.py">
+        <entry file="file://$PROJECT_DIR$/2019-01/merge_photo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+            <state relative-caret-position="1619">
+              <caret line="67" column="11" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
               <folding>
-                <element signature="e#183#197#0" expanded="true" />
-                <marker date="1546589868111" expanded="true" signature="1580:1908" ph="..." />
-                <marker date="1546589868111" expanded="true" signature="1941:1946" ph="..." />
-                <marker date="1546589868111" expanded="true" signature="2632:2637" ph="..." />
+                <element signature="e#74#83#0" expanded="true" />
+                <marker date="1546867978109" expanded="true" signature="218:223" ph="..." />
+                <marker date="1546867978109" expanded="true" signature="218:326" ph="..." />
+                <marker date="1546867978109" expanded="true" signature="649:1717" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Projects/Web Scraping/venv/Lib/site-packages/pymysql/__init__.py">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/genericpath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="91" column="7" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+            <state relative-caret-position="178">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/os.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="285" column="41" selection-start-line="285" selection-start-column="41" selection-end-line="285" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -167,15 +171,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2019-01/day-2.py" />
-        <option value="$PROJECT_DIR$/2019-01/day-3.py" />
+        <option value="$PROJECT_DIR$/2019-01/day5.py" />
+        <option value="$PROJECT_DIR$/2019-01/CCNU_PIC.py" />
         <option value="$PROJECT_DIR$/2019-01/new-1.py" />
-        <option value="$PROJECT_DIR$/2019-01/day-4.py" />
-        <option value="$PROJECT_DIR$/2019-01/day4-Mysql.py" />
-        <option value="$PROJECT_DIR$/2019-01/day4-sixLevel_space_game.py" />
+        <option value="$PROJECT_DIR$/2019-01/day6.py" />
+        <option value="$PROJECT_DIR$/2019-01/day7.py" />
+        <option value="$PROJECT_DIR$/2019-01/merge_photo.py" />
       </list>
     </option>
   </component>
@@ -185,10 +192,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="949" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,12 +209,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="Web Scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web Scraping" type="462c0819:PsiDirectoryNode" />
+              <item name="Web Crawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web Crawl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Web Scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web Scraping" type="462c0819:PsiDirectoryNode" />
+              <item name="Web Crawl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web Crawl" type="462c0819:PsiDirectoryNode" />
               <item name="2019-01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -232,9 +242,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day4-sixLevel_space_game">
-    <configuration name="day-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Web Scraping" />
+  <component name="RunManager" selected="Python.merge_photo">
+    <configuration name="day5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Web Crawl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -246,7 +256,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/day-3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/day5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,8 +265,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day-4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Web Scraping" />
+    <configuration name="day6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Web Crawl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -268,7 +278,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/day-4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/day6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,8 +287,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day4-Mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Web Scraping" />
+    <configuration name="day7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Web Crawl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -290,7 +300,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/day4-Mysql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/day7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,8 +309,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day4-sixLevel_space_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Web Scraping" />
+    <configuration name="merge_photo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Web Crawl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -312,7 +322,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/day4-sixLevel_space_game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019-01/merge_photo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,7 +332,7 @@
       <method v="2" />
     </configuration>
     <configuration name="new-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Web Scraping" />
+      <module name="Web Crawl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -344,19 +354,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.day5" />
       <item itemvalue="Python.new-1" />
-      <item itemvalue="Python.day-3" />
-      <item itemvalue="Python.day-4" />
-      <item itemvalue="Python.day4-Mysql" />
-      <item itemvalue="Python.day4-sixLevel_space_game" />
+      <item itemvalue="Python.day6" />
+      <item itemvalue="Python.day7" />
+      <item itemvalue="Python.merge_photo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day4-sixLevel_space_game" />
-        <item itemvalue="Python.day4-Mysql" />
-        <item itemvalue="Python.day-4" />
+        <item itemvalue="Python.merge_photo" />
+        <item itemvalue="Python.day7" />
+        <item itemvalue="Python.day6" />
         <item itemvalue="Python.new-1" />
-        <item itemvalue="Python.day-3" />
+        <item itemvalue="Python.day5" />
       </list>
     </recent_temporary>
   </component>
@@ -365,11 +375,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca1735ab-6c94-459c-8589-9c9283fa25dc" name="Default Changelist" comment="" />
-      <created>1546304678344</created>
+      <changelist id="9bda5c7c-8f65-48e7-801b-ff4364c02a1b" name="Default Changelist" comment="" />
+      <created>1546649915190</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546304678344</updated>
+      <updated>1546649915190</updated>
     </task>
     <servers />
   </component>
@@ -377,12 +387,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.261924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19159256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5186501" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,8 +401,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43694493" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3291815" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.8274021" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,144 +417,127 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="105" column="44" lean-forward="true" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/2019-01/day4-Mysql.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/urllib/request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        <state relative-caret-position="-1928">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/urllib/parse.py">
+    <entry file="file://$PROJECT_DIR$/2019-01/test.jpg" />
+    <entry file="file://$PROJECT_DIR$/2019-01/test1.jpg" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1501108883/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="360" column="4" selection-start-line="360" selection-start-column="4" selection-end-line="360" selection-end-column="4" />
+        <state relative-caret-position="2349">
+          <caret line="2467" column="8" selection-start-line="2467" selection-start-column="8" selection-end-line="2467" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://D:/Projects/Web Scraping/venv/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/test.gif">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/2019-01/new-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        <state relative-caret-position="1323">
+          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019-01/cookies.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019-01/day6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1546487712451" expanded="true" signature="158:163" ph="..." />
-            <marker date="1546487712451" expanded="true" signature="410:598" ph="..." />
-            <marker date="1546487712451" expanded="true" signature="617:622" ph="..." />
+            <element signature="e#54#63#0" expanded="true" />
+            <marker date="1546741597412" expanded="true" signature="203:208" ph="..." />
+            <marker date="1546741597412" expanded="true" signature="674:679" ph="..." />
+            <marker date="1546741597412" expanded="true" signature="827:832" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/day-2.py">
+    <entry file="file://$PROJECT_DIR$/2019-01/image/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019-01/image/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019-01/image/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1501108883/nt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="232">
+          <caret line="213" column="8" lean-forward="true" selection-start-line="213" selection-start-column="8" selection-end-line="213" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="285" column="41" selection-start-line="285" selection-start-column="41" selection-end-line="285" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019-01/image/53.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019-01/CCNU_PIC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
-            <marker date="1546412405455" expanded="true" signature="288:293" ph="..." />
+            <element signature="e#60#94#0" expanded="true" />
+            <marker date="1546658998178" expanded="true" signature="182:187" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/471103049/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="381" column="33" lean-forward="true" selection-start-line="381" selection-start-column="33" selection-end-line="381" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/2019-01/BigPhoto.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/editors.csv">
+    <entry file="file://$PROJECT_DIR$/2019-01/day5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Projects/Web Scraping/venv/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="91" column="7" lean-forward="true" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Projects/Web Scraping/venv/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="156" column="36" lean-forward="true" selection-start-line="156" selection-start-column="36" selection-end-line="156" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/day-4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+        <state relative-caret-position="336">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding>
-            <element signature="e#88#97#0" expanded="true" />
-            <marker date="1546572269742" expanded="true" signature="323:328" ph="..." />
-            <marker date="1546572269742" expanded="true" signature="707:712" ph="..." />
-            <marker date="1546572269742" expanded="true" signature="1007:1505" ph="..." />
-            <marker date="1546572269742" expanded="true" signature="1524:1529" ph="..." />
+            <element signature="e#62#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/day-3.py">
+    <entry file="file://$PROJECT_DIR$/2019-01/day7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="-1">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
-            <marker date="1546485387412" expanded="true" signature="346:351" ph="..." />
-            <marker date="1546485387412" expanded="true" signature="918:1383" ph="..." />
-            <marker date="1546485387412" expanded="true" signature="1394:1399" ph="..." />
-            <marker date="1546485387412" expanded="true" signature="1394:1905" ph="..." />
+            <element signature="e#40#70#0" expanded="true" />
+            <marker date="1546839369028" expanded="true" signature="309:314" ph="..." />
+            <marker date="1546839369028" expanded="true" signature="540:545" ph="..." />
+            <marker date="1546839369028" expanded="true" signature="1062:1067" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/day4-Mysql.py">
+    <entry file="file://$PROJECT_DIR$/2019-01/merge_photo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="100" />
+        <state relative-caret-position="1619">
+          <caret line="67" column="11" lean-forward="true" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
           <folding>
-            <element signature="e#100#114#0" expanded="true" />
-            <marker date="1546585528675" expanded="true" signature="649:654" ph="..." />
-            <marker date="1546585528675" expanded="true" signature="649:777" ph="..." />
-            <marker date="1546585528675" expanded="true" signature="811:816" ph="..." />
-            <marker date="1546585528675" expanded="true" signature="1261:1266" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019-01/day4-sixLevel_space_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-          <folding>
-            <element signature="e#183#197#0" expanded="true" />
-            <marker date="1546589868111" expanded="true" signature="1580:1908" ph="..." />
-            <marker date="1546589868111" expanded="true" signature="1941:1946" ph="..." />
-            <marker date="1546589868111" expanded="true" signature="2632:2637" ph="..." />
+            <element signature="e#74#83#0" expanded="true" />
+            <marker date="1546867978109" expanded="true" signature="218:223" ph="..." />
+            <marker date="1546867978109" expanded="true" signature="218:326" ph="..." />
+            <marker date="1546867978109" expanded="true" signature="649:1717" ph="..." />
           </folding>
         </state>
       </provider>
