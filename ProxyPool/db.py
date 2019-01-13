@@ -54,7 +54,7 @@ class RedisClient(object):
             print('代理', proxy, '当前分数', score, '移除')
             return self.db.zrem(REDIS_KEY, proxy)
 
-    def exit(self, proxy):
+    def exist(self, proxy):
         return not self.db.zscore(REDIS_KEY, proxy) == None
 
     def max(self, proxy):

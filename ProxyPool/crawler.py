@@ -6,7 +6,7 @@ class proxyMetaClass(type):
     def __new__(cls, name, bases, attrs):
         count = 0
         attrs['__CrawlFunc__'] = []
-        for k, v in attrs.item():
+        for k, v in attrs.items():
             if 'crawl_' in k:
                 attrs['__CrawlFunc__'].append(k)
                 count += 1
