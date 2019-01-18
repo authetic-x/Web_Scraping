@@ -15,6 +15,8 @@ def get_page(url, **options):
         if response.status_code == 200:
             print('爬取成功', url, response.status_code)
             return response.text
+        else:
+            print('爬取失败', response.status_code)
     except ConnectionError:
         print('爬取失败', url)
         return None
