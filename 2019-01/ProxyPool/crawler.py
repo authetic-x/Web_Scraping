@@ -4,7 +4,11 @@ from pyquery import PyQuery as pq
 class Crawler():
     def get_proxies(self):
         proxies = []
-        for proxy in self.crawl_goubanjia():
+        for proxy in self.crawl_ip3366():
+            proxies.append(proxy)
+        for proxy in self.crawl_xicidaili():
+            proxies.append(proxy)
+        for proxy in self.crawl_iphai():
             proxies.append(proxy)
         return proxies
 

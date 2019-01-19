@@ -24,7 +24,7 @@ class Tester():
                 real_proxy = 'http://' + proxy
                 print('正在测试', proxy)
                 async with session.get(url=TEST_URL, proxy=real_proxy,
-                                       timeout=15) as response:
+                                       timeout=5) as response:
                     if response.status in VALID_STATUS_CODE:
                         self.redis.max(proxy)
                         print('代理可用', proxy)
@@ -39,11 +39,15 @@ class Tester():
     def run(self):
         print('测试器开始运行')
         try:
-            print('当前代理剩余个数', self.redis.count())
-            proxies = self.redis.all()
+            count = self.redis.count()
+            print('当前代理剩余个数', count)
             loop = asyncio.get_event_loop()
-            for i in range(0, len(proxies), BATCH_TEST_SIZE):
-                tasks = [self.test_single_proxy(proxy) for proxy in proxies[i:i+BATCH_TEST_SIZE]]
+            for i in range(0, count, BATCH_TEST_SIZE):
+                start = i
+                stop = min(count, i+BATCH_TEST_SIZE)
+                test_proxies = self.redis.batch(start, stop)
+                print('正在测试', start+1, '-', stop, '个代理')
+                tasks = [self.test_single_proxy(proxy) for proxy in test_proxies]
                 loop.run_until_complete(asyncio.wait(tasks))
                 time.sleep(2)
         except Exception as e:

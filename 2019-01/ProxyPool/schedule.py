@@ -37,3 +37,7 @@ class Schedule():
         if API_ENABLE:
             api_process = Process(target=self.schedule_api)
             api_process.start()
+
+if __name__ == '__main__':
+    schedule = Schedule()
+    schedule.run()

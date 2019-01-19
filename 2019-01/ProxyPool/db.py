@@ -30,7 +30,7 @@ class RedisClient():
                 raise PoolEmptyError
 
     def max(self, proxy):
-        self.db.zadd(REDIS_KEY, MAX_SCORE, proxy)
+        self.db.zadd(REDIS_KEY, {proxy:MAX_SCORE})
 
     def decrease(self, proxy):
         score = self.db.zscore(REDIS_KEY, proxy)
@@ -49,3 +49,19 @@ class RedisClient():
 
     def all(self):
         return self.db.zrangebyscore(REDIS_KEY, MIN_SCORE, MAX_SCORE)
+
+    def delete_all(self):
+        print('当前代理数', self.count())
+        for proxy in self.db.zrangebyscore(REDIS_KEY, MIN_SCORE, MAX_SCORE):
+            self.db.zrem(REDIS_KEY, proxy)
+        print('已删除所有代理', self.count())
+
+    def batch(self, start, stop):
+        return self.db.zrevrange(REDIS_KEY, start, stop-1)
+
+def main():
+    redis = RedisClient()
+    print(redis.count())
+
+if __name__ == '__main__':
+    main()
