@@ -9,7 +9,7 @@ MIN_SCORE = 0
 
 POOL_UPPER_THRESHOLD = 1000
 
-TEST_URL = 'http://www.baidu.com'
+TEST_URL = 'https://mp.weixin.qq.com'
 VALID_STATUS_CODE = [200, 302]
 BATCH_TEST_SIZE = 5
 

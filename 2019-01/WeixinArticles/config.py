@@ -1,0 +1,16 @@
+TIMEOUT = 10
+VALID_STATUS = [200]
+MAX_FAILED_TIME = 5
+
+PROXY_POOL_URL = 'http://localhost:5555/random'
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_PASSWORD = None
+REDIS_KEY = 'weixin'
+
+MYSQL_HOST = 'localhost'
+MYSQL_PORT = 3306
+USERNAME = 'root'
+MYSQL_PASSWORD = '123456'
+MYSQL_DATABASE = 'crawls'

@@ -61,6 +61,7 @@ class RedisClient():
 
 def main():
     redis = RedisClient()
+    redis.delete_all()
     print(redis.count())
 
 if __name__ == '__main__':

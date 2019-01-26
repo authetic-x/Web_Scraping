@@ -13,7 +13,7 @@ TIMEOUT = 10
 VALID_STATUS = [200]
 MAX_FAILED_TIME = 5
 
-PROXY_POOL_URL = ''
+PROXY_POOL_URL = 'http://127.0.0.1:5555/random'
 
 class WeixinRequest(Request):
     def __init__(self, url, callback, method='GET', headers=None, need_proxy=False,
@@ -55,7 +55,8 @@ class Mysql():
             :param database:
             """
             try:
-                self.db = pymysql.connect(host, username, password, database, charset='utf8', port=port)
+                self.db = pymysql.connect(host=host, port=port, user=username, passwd=password, db=database,
+                                          charset='utf8')
                 self.cursor = self.db.cursor()
             except pymysql.MySQLError as e:
                 print(e.args)
@@ -78,10 +79,10 @@ class Mysql():
                 self.db.rollback()
 
 class Spider():
-    base_url = ''
+    base_url = 'https://weixin.sogou.com/weixin?'
     key_word = 'NBA'
     headers = {
-        'Cookie': 'SUV=00B317881B17ED1B5B6908F93A1EF865; CXID=CFB60C2B607DA865459A24D17B3BA704; SUID=344EB76F3865860A5B724D730004C0D3; ad=S0qdtZllll2tR0RPlllllVZYUAklllllL7K5Vyllll9lllll9klll5@@@@@@@@@@; IPLOC=CN4201; ABTEST=0|1547686493|v1; SNUID=059D2DEE8187FE1D55214B9C82D0A452; weixinIndexVisited=1; sct=1; JSESSIONID=aaaXZjIPEBIf1ah3M0fDw; ppinf=5|1547687614|1548897214|dHJ1c3Q6MToxfGNsaWVudGlkOjQ6MjAxN3x1bmlxbmFtZTo4OmF1dGhldGljfGNydDoxMDoxNTQ3Njg3NjE0fHJlZm5pY2s6ODphdXRoZXRpY3x1c2VyaWQ6NDQ6bzl0Mmx1TUNxYTBlU3lGcnExbE92aHQ3WG1Gd0B3ZWl4aW4uc29odS5jb218; pprdig=F6i8W6bdOvzk9VdKyTzIFox6el6wdZk078qjFdwWjtixQ1EuBy0TMq4BNhVUCknvuAz-sAuMG1dRzkeBg18UkrFK-2VeEt7R9a_Oqkv-NPCrUNxTWuP9wJmIZpOw09e1mnqwgwpGVRWk2JsG39iVF-HBkYzlfGgSuXqCJnd5RWk; sgid=11-38791065-AVwic1r4FhVQCia9uN2ia5YYaU; ppmdig=1547687614000000f589025875b012ad279dd84bfe683c5d',
+        'Cookie': 'SUV=00B317881B17ED1B5B6908F93A1EF865; CXID=CFB60C2B607DA865459A24D17B3BA704; SUID=344EB76F3865860A5B724D730004C0D3; IPLOC=CN4201; ABTEST=0|1547686493|v1; weixinIndexVisited=1; SNUID=5796D6DEC4C1BA3474605B0BC5D7928D; ppinf=5|1548046655|1549256255|dHJ1c3Q6MToxfGNsaWVudGlkOjQ6MjAxN3x1bmlxbmFtZTo4OmF1dGhldGljfGNydDoxMDoxNTQ4MDQ2NjU1fHJlZm5pY2s6ODphdXRoZXRpY3x1c2VyaWQ6NDQ6bzl0Mmx1TUNxYTBlU3lGcnExbE92aHQ3WG1Gd0B3ZWl4aW4uc29odS5jb218; pprdig=nfjiTQ62SluMVzhnMfzfgAECp-10K12U8UYHC2eqYnJVPFubSIi041j-db4Tgv9yqfBiud8xlrNycXt7MXCYlucNOBpWcu1gu3Dn0Q8Lh7PPEBSYMvNTKTqTGx3x-l45Ndurz5-5Aq16RW8U-jenH5XD8vbJVnyHQP4ank0IJiA; sgid=11-38791065-AVxFUTibcPxuhorUqhoFwgzQ; ppmdig=15480466350000008adc6777f701e8d5cdf3fae8a60897df; sct=2; JSESSIONID=aaaxNalgx2Cvs9op7L8Cw',
         'Host': 'weixin.sogou.com',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
     }
@@ -90,7 +91,7 @@ class Spider():
 
     def start(self):
         self.session.headers.update(self.headers)
-        start_url = self.base_url + urlencode({'query': self.key_word, 'type': 2})
+        start_url = self.base_url + urlencode({'type': 2, 'query': self.key_word})
         weixin_request = WeixinRequest(url=start_url, callback=self.parse_index, need_proxy=True)
         self.queue.add(weixin_request)
 
